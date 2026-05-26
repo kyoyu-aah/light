@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+  <link rel="stylesheet" href="./normal.css">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ものおきば</title>
+  <style>
+    /* 全体：横並びにして端で折り返す設定 */
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* 各アイテム：文字と画像を縦に並べて中央揃え */
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 150px;
+      margin-bottom: 15px;
+    }
+
+    /* 画像のサイズ調整 */
+    .thumbnail {
+      display: block;
+      margin-top: 8px;
+      width: 100%;
+      max-width: 140px;
+      height: auto;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9; /* 読み込み前の下地 */
+    }
+
+    /* リンクテキスト：高さのズレを防ぎ、中央に配置 */
+    li a {
+      text-align: center;
+      font-size: 14px;
+      text-decoration: none;
+      word-break: break-all;
+      min-height: 3em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <h3>スタンプ</h3>
+  <ul>
+    <li><a href="1.jpg">赤羽</a><img src="resize/1.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="11.jpg">秋葉原</a><img src="resize/11.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="14.jpg">我孫子</a><img src="resize/14.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="12.jpg">飯田橋</a><img src="resize/12.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="2.jpg">池袋</a><img src="resize/2.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="13.jpg">上野</a><img src="resize/13.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="18.jpg">浦和</a><img src="resize/18.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="4.jpg">恵比寿</a><img src="resize/4.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="27.jpg">王子</a><img src="resize/27.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="5.jpg">大崎</a><img src="resize/5.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="19.jpg">大宮</a><img src="resize/19.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="26.jpg">大森</a><img src="resize/26.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="10.jpg">葛西臨海公園</a><img src="resize/10.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="17.jpg">越谷レイクタウン</a><img src="resize/17.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="7.jpg">品川</a><img src="resize/7.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="3.jpg">新宿</a><img src="resize/3.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="6.jpg">高輪ゲートウェイ</a><img src="resize/6.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="22.jpg">立川</a><img src="resize/22.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="25.jpg">鶴見</a><img src="resize/25.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="9.jpg">東京</a><img src="resize/9.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="23.jpg">登戸</a><img src="resize/23.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="20.jpg">西荻窪</a><img src="resize/20.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="8.jpg">羽田空港第2ターミナル</a><img src="resize/8.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="15.jpg">船橋</a><img src="resize/15.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="16.jpg">松戸</a><img src="resize/16.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="21.jpg">三鷹</a><img src="resize/21.jpg" class="thumbnail" loading="lazy"></li>
+    <li><a href="24.jpg">横浜</a><img src="resize/24.jpg" class="thumbnail" loading="lazy"></li>
+  </ul>
+  <hr>
+</body>
+</html>
